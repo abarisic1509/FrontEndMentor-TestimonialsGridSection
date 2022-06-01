@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/html-scss-grid-HknQ07-Bc)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-scss-grid-HknQ07-Bc](https://www.frontendmentor.io/solutions/html-scss-grid-HknQ07-Bc)
+- Live Site URL: [https://fem-testimonials-grid-section1-v2.netlify.app/](https://your-live-site-url.com)
 
 ### Built with
 
@@ -40,5 +40,5 @@ Users should be able to:
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@abarisic1509](https://www.frontendmentor.io/profile/abarisic1509)
-- Linkedin - [@yourusername](https://www.linkedin.com/in/ana-marija-bari%C5%A1i%C4%87-3b88b523a/)
+- Linkedin - [@abarisic](https://www.linkedin.com/in/ana-marija-bari%C5%A1i%C4%87-3b88b523a/)
 
