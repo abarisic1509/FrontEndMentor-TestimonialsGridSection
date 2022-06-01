@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+body {
+    font-size: 0.81rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: $lightGrayBlue;
+    line-height: 1.4;
+}
+
+article {
+    padding: 1.5rem 1.8rem;
+    border-radius: .5rem;
+    color: $white;
+    h4 {
+        @include fluidText(.85rem,1.1rem);
+        font-weight: 400;
+    }
+    h6 {
+        @include fluidText(.75rem,.9rem);
+        color: $transparentWhiteHeading;
+    }
+    .comment-heading {
+        @include fluidText(1.3rem,1.5rem);
+        margin-bottom: 1rem;
+    }
+    .comment {
+        @include fluidText(.88rem,1.1rem);
+        color: $transparentWhiteComment;
+    }
+    &.white {
+        color: $darkBlackBlue;
+        h6 {
+            color: $transparentBlackHeading;
+        }
+        .comment {
+            color: $transparentBlackComment;
+        }
+    }
+}
+
+.main-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr minmax(260px,1330px) 1fr;
+    align-items: center;
+    justify-content: center;
+}
